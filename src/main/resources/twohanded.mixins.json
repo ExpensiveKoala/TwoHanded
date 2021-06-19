@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.koala.twohanded.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "twohanded.refmap.json",
+  "mixins": [
+    "HeldItemChangeMixin"
+  ],
+  "client": [
+    "client.HeldItemLayerMixin"
+  ],
+  "minVersion": "0.8"
+}

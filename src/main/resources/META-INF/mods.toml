@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="ARR"
+[[mods]]
+modId="twohanded"
+version="${file.jarVersion}"
+displayName="Two Handed"
+description='''
+This mod adds in the ability to define certain items as two-handed.
+'''
+[[dependencies.twohanded]] #optional
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.twohanded]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
